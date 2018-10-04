@@ -1,0 +1,34 @@
+{
+  "name": "discord-becky-bot-py",
+  "scripts": {
+  },
+  "env": {
+    "DISCORD_TOKEN": {
+      "required": true
+    },
+    "GOOGLE_SERVICE_ACCOUNT_KEY_BASE64": {
+      "required": true
+    },
+    "GOOGLE_SPREADSHEET_KEY": {
+      "required": true
+    },
+    "REDIS_URL": {
+      "required": true
+    },
+    "REDIS_URL_SERIA": {
+      "required": true
+    },
+    "SENTRY_DSN": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "heroku-redis",
+    "sentry"
+  ],
+  "buildpacks": [
+
+  ]
+}
