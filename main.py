@@ -5,7 +5,7 @@ import calendar
 from discord import Client as DiscordClient
 from discord import Game, Message, Server
 import config
-#from raven import Client as SentryClient
+from raven import Client as SentryClient
 import google_service_account
 from datastore import redis_db
 
